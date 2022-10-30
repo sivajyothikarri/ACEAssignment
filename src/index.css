@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  background-color: #157ea8;
+}
+.login .wrapper {
+  max-width: 512px;
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0;
+          flex: 1 0;
+}
+
+.login .form-in {
+  margin-bottom: 24px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.login .text {
+  background: #FFFFFF;
+  position: relative;
+  -webkit-box-shadow: 4px 4px 6.46px rgba(6, 6, 6, 0.19);
+          box-shadow: 4px 4px 6.46px rgba(6, 6, 6, 0.19);
+  border-radius: 20px;
+}
+
+
+.login .text .body {
+  padding: 24px 44px;
+}
+
+.login .text .body .title {
+  text-align: center;
+}
+
+.login .form-in {
+  margin-bottom: 24px;
+}
+.form-in {
+  position: relative;
+  text-align: left;
+}
+.form-in > label {
+  font-size: 12px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-in.icon .icon-left {
+  position: absolute;
+  top: 34px;
+  left: 10px;
+  z-index: 10;
+}
+
+.f-in{
+  width: 100%;
+}
+.f-in > input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: black solid 1px;
+  padding-left: 30px;
+}
+.login .text .foot .btn.single {
+  font-size: 15px;
+  padding: 14px 24px;
+  min-width: 152px;
+}
+
+.font-old {
+  font-family: "Open Sans";
+}
+.fs20 {
+  font-size: 20px !important;
+}
+
+.form-in .icon-right {
+  position: absolute;
+  right: 10px;
+  top: 34px;
+  z-index: 2;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all cubic-bezier(0, 0, 0.2, 1) 180ms;
+  transition: all cubic-bezier(0, 0, 0.2, 1) 180ms;
+}
+
+.login .text .foot {
+  position: relative;
+  text-align: center;
+  padding: 0 44px 46px;
+}
+
+.login .text .foot .btn.single {
+  font-size: 15px;
+  padding: 14px 24px;
+  min-width: 152px;
+}
+
+.foot{
+  position: relative;
+  text-align: center;
+  padding: 0 44px 46px;
+
+}
+.btn{
+  background-color: rgb(46, 46, 217);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.logo {
+  height: 50px;
+  background: rgba(233, 222, 222, 0.3);
+}
+.menuIcon{
+  cursor: pointer;
+    position: relative;
+    right: 0px;
+    width: 47px;
+    top: 10px;
+}
+.ant-layout-sider-light {
+  background: rgb(199, 140, 196) !important
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.filter-in input{
+  height: 40px;
+    border-radius: 5px;
+    border: black solid 2px;
+    margin-bottom: 10px;
+}
